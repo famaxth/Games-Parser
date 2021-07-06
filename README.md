@@ -1,6 +1,6 @@
 # Games-Parser
 
-A Python script that parses the site Amazon.co.uk
+A Python script for getting a list of new games in 2021
 
 ## Installation Instructions
 
