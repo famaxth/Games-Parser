@@ -1,16 +1,14 @@
-# - *- coding: utf- 8 - *-
-
-#Production by Famaxth
-#Telegram - @por0vos1k
-
+# -*- coding: utf-8 -*-
 
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 
+
 options = Options()
 options.headless = True
 
-path = 'path/to/chromedriver.exe' #you need to change this
+path = 'path/to/chromedriver.exe'  # You need to change this
+
 
 def parser():
     driver = webdriver.Chrome(path, chrome_options=options)
@@ -19,5 +17,6 @@ def parser():
 
     for i in range(0, len(games)):
         print(games[i].text)
+
 
 parser()
